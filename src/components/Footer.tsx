@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Instagram } from "lucide-react";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -44,7 +45,18 @@ const Footer = () => {
               <h3 className="text-gold font-semibold mb-4">Kontakt</h3>
               <ul className="space-y-2 text-white/60">
                 <li>info@livefast-auto.de</li>
-                <li>+49 (0) 123 456789</li>
+                <li>+4917643650517</li>
+                <li className="flex items-center gap-2">
+                  <a 
+                    href="https://www.instagram.com/livefastautovermietunggmbh/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="hover:text-gold transition-colors flex items-center gap-1"
+                  >
+                    <Instagram className="h-4 w-4" />
+                    <span>Instagram</span>
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

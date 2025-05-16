@@ -116,7 +116,7 @@ const Index = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent"
-                  placeholder="+49 123 456789"
+                  placeholder="+49 176 43650517"
                 />
               </div>
               
@@ -154,7 +154,7 @@ const Index = () => {
                 Oder kontaktiere uns direkt per WhatsApp:
               </p>
               <a 
-                href="https://wa.me/491234567890" 
+                href="https://wa.me/4917643650517" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="mt-4 inline-block px-6 py-3 bg-green-500 text-white rounded-full font-semibold hover:bg-green-600 transition-colors"
